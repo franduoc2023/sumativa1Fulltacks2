@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Lo primero es dejar boostrap CDN en el proyecto https://getbootstrap.com/docs/4.0/getting-started/introduction/-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Hoja de estilos propia en su carpeta-->
+    <link href="css/style.css " rel="stylesheet">
+    <title>Solar Andes!</title>
+  </head>
+  <body>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logoem.png" alt="panelsolar" width="40">  
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="financiamiento.html">Financiamiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+          </ul>
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid position-relative text-center">
+      <img src="img/logobanner.jpg" class="w-100 custombanner" alt="Banner de imagen">
+      <div class="position-absolute top-50 start-50 translate-middle text-white">
+        <h1>¡Paneles solares
+          al alcance de todos!</h1>
+        <p>En EnerLife, contamos con diversas opciones de financiamiento que hacen que la instalación de paneles solares sea accesible para todos.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid  bg-light">
+      <!-- Primera fila -->
+      <div class="row justify-content-center cajaajusta">
+        <div class="col-6 d-flex flex-column align-items-center textofinanciamiento">
+          <h2>¡Haz el cambio con $0 de inversión inicial mejora tu calidad de vida. </h2>
+         <br>
+         <hr class="linea">
+
+         <h2>¿Quieres más información?
+
+          Completa el siguiente formulario, para que así uno de nuestros ejecutivos evalúe tu proyecto y te podamos entregar la mejor solución según tus necesidades.</h2>
+        
+        </div>
+ 
+    
+ 
+    </div>
+
+       <div class="container-fluid">
+        <div class="row justify-content-center ">
+          <div class="col-lg-12 text-center">
+            <h2>Contacteme</h2>
+            <hr class="star-primary">
+          </div>
+        </div>
+        <div class="row justify-content-center ">
+          <div class="col-lg-8 col-lg-offset-2">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <label>Name</label>
+                  <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor, ingrese su name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <label>Email</label>
+                  <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, ingrese su email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <label>Número de teléfono</label>
+                  <input type="tel" class="form-control" placeholder="Número de teléfono" id="phone" required data-validation-required-message="Por favor, ingrese su número de teléfono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor, ingrese un mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="row">
+                <div class="form-group col-xs-12">
+                  <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+
+<!--https://fgarciajulia.github.io/mi_primera_pagina/formulario-contacto.html formulario-->
+
+
+
+
+
+
+
+
+
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+         </div>
+     
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Solar Andes
+              </h6>
+              <p class="pempresa">
+                Somos una empresa familiar especializada en la instalación y gestión de paneles solares, así como en soluciones de ahorro energético para hogares y empresas. Contamos con una amplia experiencia en el sector, respaldada por un equipo de ingenieros y técnicos altamente capacitados y comprometidos con la excelencia en el rubro.
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Trabajamos con
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Canadian Solar</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">LG Solar</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Jinko Solar</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Huawei Solar</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+               Utilidad
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Ahorro</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Baja consumo</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Buenas Practicas</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Sec</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+              <p><i class="fas fa-home me-3"></i> Los andes / Avenida argentina</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i>+56 9888888</p>
+              <p><i class="fas fa-print me-3"></i>+56 9888888</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Solar Andes web</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+<!-- Footer -->
+</body>
+</html>
